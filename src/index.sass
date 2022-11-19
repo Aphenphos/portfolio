@@ -3,13 +3,20 @@ $dark:  #201925
 $dark-purple: #3A2A46
 $light-purple: #744a94
 $dark-gray: #4C4452
+
+html 
+   background-color: #3A2A46
+   overflow-x: hidden
+   min-height: 100vh
+   max-height: 100vh
 body
     padding: 0
     margin: 0
-    height: 100vh
+    min-height: 100vh
+    max-height: 100vh
     width: 100vw
     font-family: 'Overpass', sans-serif
-    background: linear-gradient(36deg, $light-purple, $dark-purple, $dark, $dark-purple, $light-purple)
+    background: linear-gradient(-33deg, $light-purple, $dark-purple, $dark, $dark-purple, $light-purple) 
     background-size: 400% 400%
     animation: gradient 20s ease infinite
     @keyframes gradient
@@ -19,4 +26,3 @@ body
             background-position: 100% 50%
         100%
             background-position: 0% 50%
-            
