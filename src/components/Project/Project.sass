@@ -1,16 +1,24 @@
 @keyframes slideInLeft
     0%
-        transform: translateX(-100%)
+        transform: translateX(-15%)
         opacity: 0
     100%
         transform: translateX(0)
 .project-container
-    animation: 2s ease-out 0s 1 slideInLeft
+    float: right
+    max-width: 33vw
+    animation: 1.5s ease-out 0s 1 slideInLeft
     display: flex
+    flex-direction: column
+    align-items: right
+    justify-content: right
+    text-align: right
     padding-left: 4rem
     padding-right: 4rem
     font-size: .8rem
     overflow-wrap: break-word
+    h1
+        text-align: right
     p
         font-size: 1rem
     a
