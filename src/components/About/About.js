@@ -8,7 +8,7 @@ export default function About() {
                 Thoughtful design makes life easier
             </h2>
             <p>
-                With a background in psychology and management well planned and executed systems have always been my goal. <br />
+                With a background in psychology and management, well-planned and executed systems have always been my goal. <br />
             </p>
             <h2>
                 Endless learning
@@ -20,7 +20,7 @@ export default function About() {
                 Hard Work
             </h2>
             <p>
-                No amount of talent is a replacement for the dedication to putting in the hours required to maximize potential.
+                No amount of talent is a replacement for dedication to putting in the hours required to maximize potential.
             </p>
         </div>
         </>
