@@ -1,9 +1,16 @@
+@keyframes slideInLeft
+    0%
+        transform: translateX(-15%)
+        opacity: 0
+    100%
+        transform: translateX(0)
 #about-container
     float: right
     text-align: right
     padding-left: 4rem
     padding-right: 4rem
     max-width: 33vw
+    animation: 1.5s ease-out 0s 1 slideInLeft
     h1
         font-size: .8rem
     p
