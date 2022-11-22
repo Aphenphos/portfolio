@@ -6,7 +6,7 @@ export default function Projects() {
     <>
     <div id="projects-container">
     {projects.map((p, index) => (
-      <Project key={index} name={p.name} link={p.githubLink} description={p.description} index={index}/>
+      <Project key={index} name={p.name} githubLink={p.githubLink} description={p.description} index={index}/>
     ))}
   </div>
   </>
