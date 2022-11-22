@@ -1,9 +1,9 @@
 const projects = [];
 const abouts = []
-function makeProject(name, link, description) {
+function makeProject(name, githubLink, description) {
   const project = {
     name,
-    link,
+    githubLink,
     description
   };
   projects.push(project);
@@ -22,8 +22,9 @@ makeAbout('Endless learning', 'Nothing improves on its own, one must be willing 
 makeAbout('Hard Work', ' No amount of talent is a replacement for dedication to putting in the hours required to maximize potential.')
 
 
-makeProject("YouCal", "https://spiffy-rabanadas-a14f8b.netlify.app/", 'Calendar app built entirely with React and Vanilla JS. Make a Calendar, add events and share your calendar with other users!');
-makeProject("WeSay", "https://spiffy-rabanadas-a14f8b.netlify.app/", 'Classic Simon game with increasing difficulties made with Vanilla JS and CSS only.');
+makeProject("YouCal", "https://github.com/Aphenphos/calendar", 'Calendar app built entirely with React and Vanilla JS. Make a Calendar, add events and share your calendar with other users!');
+makeProject("WeSay", "https://github.com/Aphenphos/We-Say", 'Classic Simon game with increasing difficulties made with Vanilla JS and CSS only.');
+makeProject("E-Commerce", "https://github.com/Aphenphos/Ecommerce-template-project/tree/dev", 'Easy to use e-commerce app from both a user and vendor perspective. Made with React, TypeScript and Node.');
 
 
 export { projects, abouts };
