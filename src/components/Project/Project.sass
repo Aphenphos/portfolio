@@ -1,9 +1,3 @@
-@keyframes slideInLeft
-    0%
-        transform: translateX(-15%)
-        opacity: 0
-    100%
-        transform: translateX(0)
 .project-container
     float: right
     max-width: 33vw
@@ -15,7 +9,6 @@
     padding-left: 4rem
     padding-right: 4rem
     font-size: .8rem
-    overflow-wrap: break-word
     h1
         text-align: right
     p
@@ -24,6 +17,8 @@
         text-decoration: underline
         width: 100%
         pointer-events: auto
+    ::before
+        display: none
 @media only screen and (max-width: 600px)
     .project-container
         float: none
