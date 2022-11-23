@@ -5,7 +5,7 @@ export default function About() {
         <>
         <div id="about-container">
         {abouts.map((a, index) => (
-            <div className='a-container' style={{ animation: `${(index / 2) + .75}s ease-out 0s 1 slideInLeft`}}>
+            <div key={index} className='a-container' style={{ animation: `${(index / 2) + .75}s ease-out 0s 1 slideInLeft`}}>
             <h2>
                 {a.title}
             </h2>
