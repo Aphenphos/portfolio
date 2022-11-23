@@ -9,8 +9,8 @@ export default function Nav() {
             <h2>Front & Backend Web Developer</h2>
         </div>
         <div id='nav-links'>
+            <NavLink to='/'>Home</NavLink>
             <NavLink to='/projects'>Projects</NavLink>
-            <NavLink to='/info'>Info</NavLink>
             <NavLink to='/about'>About</NavLink>
         </div>
         </>
