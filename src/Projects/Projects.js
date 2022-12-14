@@ -1,14 +1,21 @@
 import { projects } from "../data";
 import Project from "../components/Project/Project";
-import './Projects.sass'
+import "./Projects.sass";
 export default function Projects() {
-    return (
+  return (
     <>
-    <div id="projects-container">
-    {projects.map((p, index) => (
-      <Project key={index} name={p.name} githubLink={p.githubLink} description={p.description} index={index}/>
-    ))}
-  </div>
-  </>
-    )
+      <div id="projects-container">
+        {projects.map((p, index) => (
+          <Project
+            key={index}
+            name={p.name}
+            githubLink={p.githubLink}
+            deployLink={p.deployLink}
+            description={p.description}
+            index={index}
+          />
+        ))}
+      </div>
+    </>
+  );
 }
