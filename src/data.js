@@ -44,10 +44,10 @@ makeProject(
   "Calendar app built entirely with React and Vanilla JS. Make a Calendar, add events and share your calendar with other users!"
 );
 makeProject(
-  "WeSay",
-  "https://github.com/Aphenphos/We-Say",
+  "ProjManager",
+  "https://github.com/Aphenphos/projmanagerv2",
   null,
-  "Classic Simon game with increasing difficulties made with Vanilla JS and CSS only."
+  "Simple note taking style api with a basic front end. Used as a learning experience for Java Spring/SpringBoot and Spring Security."
 );
 
 export { projects, abouts };
