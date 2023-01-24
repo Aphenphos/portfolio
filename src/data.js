@@ -38,6 +38,12 @@ makeProject(
   "Easy to use e-commerce app from both a user and vendor perspective. Made with React, TypeScript and Node."
 );
 makeProject(
+  "Project SinVes",
+  "https://github.com/Aphenphos/sinves",
+  null,
+  "Project to get a bit deeper into ASP.NET. Full CRUD API with JWT authentication."
+);
+makeProject(
   "YouCal",
   "https://github.com/Aphenphos/calendar",
   null,
