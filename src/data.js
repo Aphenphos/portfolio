@@ -34,7 +34,7 @@ makeAbout(
 makeProject(
   "E-Commerce",
   "https://github.com/Aphenphos/Ecommerce-template-project/tree/dev",
-  "https://ecomexample.up.railway.app/",
+  null,
   "Easy to use e-commerce app from both a user and vendor perspective. Made with React, TypeScript and Node."
 );
 makeProject(
