@@ -1,5 +1,6 @@
 const projects = [];
 const abouts = [];
+const demos = [];
 function makeProject(name, githubLink, deployLink, description) {
   const project = {
     name,
@@ -8,6 +9,15 @@ function makeProject(name, githubLink, deployLink, description) {
     description,
   };
   projects.push(project);
+}
+
+function makeDemo(name, link, image) {
+  const demo = {
+    name,
+    link,
+    image,
+  };
+  demos.push(demo);
 }
 
 function makeAbout(title, content) {
@@ -55,5 +65,15 @@ makeProject(
   null,
   "Simple note taking style api with a basic front end. Used as a learning experience for Java Spring/SpringBoot and Spring Security."
 );
+makeDemo(
+  "NixieTubes",
+  "https://nixontubes.netlify.app/",
+  "https://res.cloudinary.com/dyhgjtafr/image/upload/v1676610515/nixtubes_bdcttw.png"
+);
+makeDemo(
+  "ArubaWebDevs",
+  "https://arubawebdevs.netlify.app/",
+  "https://res.cloudinary.com/dyhgjtafr/image/upload/v1676610282/auawebdev_ywi86p.jpg"
+);
 
-export { projects, abouts };
+export { projects, abouts, demos };

@@ -1,18 +1,19 @@
-import { NavLink } from 'react-router-dom'
-import './Nav.sass'
+import { NavLink } from "react-router-dom";
+import "./Nav.sass";
 
 export default function Nav() {
-    return (
+  return (
     <>
-        <div id="title-container">
-            <h1>Maxwill Winters</h1>
-            <h2>Front & Backend Web Developer</h2>
-        </div>
-        <div id='nav-links'>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/projects'>Projects</NavLink>
-            <NavLink to='/about'>About</NavLink>
-        </div>
-        </>
-    )
+      <div id="title-container">
+        <h1>Maxwill Winters</h1>
+        <h2>Front & Backend Web Developer</h2>
+      </div>
+      <div id="nav-links">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/demos">Demos</NavLink>
+        <NavLink to="/about">About</NavLink>
+      </div>
+    </>
+  );
 }
