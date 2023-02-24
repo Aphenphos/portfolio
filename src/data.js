@@ -75,5 +75,10 @@ makeDemo(
   "https://arubawebdevs.netlify.app/",
   "https://res.cloudinary.com/dyhgjtafr/image/upload/v1676610282/auawebdev_ywi86p.jpg"
 );
+makeDemo(
+  "AudioVisualiser",
+  "https://ikou.netlify.app/",
+  "https://res.cloudinary.com/dyhgjtafr/image/upload/v1677206715/6a0de19a1d1df727ffda92c3183fd029_yifbic.png"
+);
 
 export { projects, abouts, demos };
