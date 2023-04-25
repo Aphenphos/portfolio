@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "./Nav.sass";
-
 export default function Nav() {
   return (
     <>
@@ -13,6 +12,9 @@ export default function Nav() {
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/demos">Demos</NavLink>
         <NavLink to="/about">About</NavLink>
+        <a href="../../../public/assets/Maxwill Winters Resume.pdf" download>
+          Resume
+        </a>
       </div>
     </>
   );
