@@ -4,7 +4,6 @@ import "./App.sass";
 import Projects from "./Projects/Projects";
 import Nav from "./components/Nav/Nav";
 import About from "./components/About/About";
-import Demos from "./Demos/Demos";
 function App() {
   return (
     <div className="App">
@@ -12,7 +11,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Info />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/demos" element={<Demos />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
     </div>

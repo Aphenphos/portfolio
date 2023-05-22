@@ -6,18 +6,8 @@ function makeProject(name, githubLink, deployLink, description) {
     name,
     githubLink,
     deployLink,
-    description,
   };
   projects.push(project);
-}
-
-function makeDemo(name, link, image) {
-  const demo = {
-    name,
-    link,
-    image,
-  };
-  demos.push(demo);
 }
 
 function makeAbout(title, content) {
@@ -28,57 +18,31 @@ function makeAbout(title, content) {
   abouts.push(about);
 }
 
+makeAbout("Location", "Rochester NY MaxwillWinters@gmail.com");
 makeAbout(
-  "Thoughtful design makes life easier",
-  "With a background in psychology and management, well-planned and executed systems have always been my goal."
+  "Tech Stack",
+  "Python, JavaScript/TypeScript (Node, React, Solid), C#/.NET, HTML/CSS/SASS, PSQL/MySQL/MongoDB, VirtualBox/VMWare, Windows/Linux, Bash, Selenium"
 );
 makeAbout(
-  "Endless learning",
-  "Nothing improves on its own, one must be willing to learn new and rapidly advancing technologies as time dictates."
-);
-makeAbout(
-  "Hard Work",
-  " No amount of talent is a replacement for dedication and putting in the hours required to maximize potential."
+  "Interests",
+  "Solving complex problems with clean, performant and elegant solutions. Fascinated with AI and Unreal5."
 );
 
 makeProject(
-  "E-Commerce",
-  "https://github.com/Aphenphos/Ecommerce-template-project/tree/dev",
-  null,
-  "Easy to use e-commerce app from both a user and vendor perspective. Made with React, TypeScript and Node."
+  "Audio Visualiser",
+  "https://github.com/Aphenphos/Ikou",
+  "https://ikou.netlify.app/"
 );
 makeProject(
-  "Project SinVes",
-  "https://github.com/Aphenphos/sinves",
-  null,
-  "Project to get a bit deeper into ASP.NET. Full CRUD API with JWT authentication."
+  "YouTube Generator",
+  "https://github.com/Aphenphos/YTGenerator",
+  "https://www.youtube.com/@LodusValorant"
 );
+
 makeProject(
-  "YouCal",
-  "https://github.com/Aphenphos/calendar",
-  null,
-  "Calendar app built entirely with React and Vanilla JS. Make a Calendar, add events and share your calendar with other users!"
-);
-makeProject(
-  "ProjManager",
-  "https://github.com/Aphenphos/projmanagerv2",
-  null,
-  "Simple note taking style api with a basic front end. Used as a learning experience for Java Spring/SpringBoot and Spring Security."
-);
-makeDemo(
-  "NixieTubes",
-  "https://nixontubes.netlify.app/",
-  "https://res.cloudinary.com/dyhgjtafr/image/upload/v1676610515/nixtubes_bdcttw.png"
-);
-makeDemo(
   "ArubaWebDevs",
-  "https://arubawebdevs.netlify.app/",
-  "https://res.cloudinary.com/dyhgjtafr/image/upload/v1676610282/auawebdev_ywi86p.jpg"
-);
-makeDemo(
-  "AudioVisualiser",
-  "https://ikou.netlify.app/",
-  "https://res.cloudinary.com/dyhgjtafr/image/upload/v1677206715/6a0de19a1d1df727ffda92c3183fd029_yifbic.png"
+  "https://github.com/Aphenphos/arubawebdevs/tree/main/src",
+  "https://arubawebdevs.netlify.app/"
 );
 
 export { projects, abouts, demos };

@@ -6,12 +6,11 @@ export default function Nav() {
     <>
       <div id="title-container">
         <h1>Maxwill Winters</h1>
-        <h2>Front & Backend Web Developer</h2>
+        <h2>Software Engineer</h2>
       </div>
       <div id="nav-links">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/demos">Demos</NavLink>
         <NavLink to="/about">About</NavLink>
         <a href={resume}>Resume</a>
       </div>

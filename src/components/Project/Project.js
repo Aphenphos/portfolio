@@ -1,11 +1,5 @@
 import "./Project.sass";
-export default function Project({
-  name,
-  githubLink,
-  deployLink,
-  description,
-  index,
-}) {
+export default function Project({ name, githubLink, deployLink, index }) {
   return (
     <>
       <div
@@ -15,10 +9,9 @@ export default function Project({
         }}
       >
         <h1>{name}</h1>
-        <p>{description}</p>
         <div id="link-cont">
           <a href={githubLink}>Github</a>
-          {deployLink ? <a href={deployLink}>Deployment</a> : <></>}
+          {deployLink ? <a href={deployLink}>Demo</a> : <></>}
         </div>
       </div>
     </>

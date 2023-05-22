@@ -11,7 +11,6 @@ export default function Projects() {
             name={p.name}
             githubLink={p.githubLink}
             deployLink={p.deployLink}
-            description={p.description}
             index={index}
           />
         ))}
