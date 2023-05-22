@@ -44,5 +44,9 @@ makeProject(
   "https://github.com/Aphenphos/arubawebdevs/tree/main/src",
   "https://arubawebdevs.netlify.app/"
 );
+makeProject(
+  "E-Commerce from 'Scratch'",
+  "https://github.com/Aphenphos/Ecommerce-template-project/tree/main"
+);
 
 export { projects, abouts, demos };
