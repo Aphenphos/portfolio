@@ -4,7 +4,10 @@
   
   100% 
     transform: translateX(0)
-  
+
+@keyframes blinkText
+  50%
+    opacity: .6
 
 
 #info-links
@@ -15,7 +18,5 @@
         right: 10vw
         gap: 30px
         animation: 2s ease-out 0s 1 slideInLeft
-        .Link
-            display: flex
-            height: auto
-            bottom: 0
+        > *:hover
+          animation: blinkText .53s linear infinite
