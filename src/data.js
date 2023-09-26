@@ -27,7 +27,20 @@ makeAbout(
   "Interests",
   "Solving complex problems with clean, performant and elegant solutions. Fascinated with AI and Unreal5."
 );
+makeAbout(
+  "Non Programming",
+  "Reading, Religion and Gaming are my main interests outside of more professional matters. Favorite Author is easily C.S Lewis (Space Trilogy)"
+)
 
+
+makeProject(
+  "Atel Programming Language",
+  "https://github.com/Aphenphos/atel"
+)
+makeProject(
+  "Better Cam (DXF to GCODE)",
+  "https://github.com/Aphenphos/betterCam"
+)
 makeProject(
   "Audio Visualiser",
   "https://github.com/Aphenphos/Ikou",
