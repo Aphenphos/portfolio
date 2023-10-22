@@ -39,7 +39,7 @@ makeProject(
 )
 makeProject(
   "Better Cam (DXF to GCODE)",
-  "https://github.com/Aphenphos/betterCam"
+  "https://github.com/Aphenphos/SoloCam"
 )
 makeProject(
   "Audio Visualiser",
